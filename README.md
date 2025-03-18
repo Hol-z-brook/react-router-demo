@@ -1,3 +1,7 @@
+# React Router v7 Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/15e5bfd1-c914-48ff-9793-e3d3561a8497/deploy-status)](https://app.netlify.com/sites/holzbrook-remix-demo/deploys)
+
 # Welcome to React Router!
 
 A modern, production-ready template for building full-stack React applications using React Router.
