@@ -1,4 +1,7 @@
 import type { Config } from "@react-router/dev/config";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export default {
   // Config options...
