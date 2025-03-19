@@ -27,7 +27,7 @@ export default function HomePage() {
         </motion.header>
 
         <motion.div 
-          className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
@@ -35,7 +35,6 @@ export default function HomePage() {
           {[
             { path: "/todos", label: "Todos" },
             { path: "/users", label: "Users" },
-            { path: "/user", label: "User" },
           ].map(({ path, label }) => (
             <Link 
               key={path} 
